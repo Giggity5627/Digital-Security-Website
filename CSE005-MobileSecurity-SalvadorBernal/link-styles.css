@@ -1,0 +1,29 @@
+/* Default hyperlink styles */
+a {
+    color: black; /* Default color for links */
+    text-decoration: none; /* Removes underline */
+    font-weight: none;
+}
+
+/* Hover state (when the user hovers over the link) */
+a:hover {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Visited state (after the link has been clicked) */
+a:visited {
+    color: black;
+}
+
+/* Active state (while the link is being clicked) */
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+/* Focused state (when the link is focused, e.g., by tabbing) */
+a:focus {
+    outline: 2px dashed lightblue; /* Adds a focus outline for accessibility */
+}
