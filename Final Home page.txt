@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malware Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #34495e;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .content {
+      margin-bottom: 20px;
+    }
+
+    .content h2 {
+      color: #2c3e50;
+    }
+
+    .content p {
+      line-height: 1.6;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .button-container a {
+      text-decoration: none;
+      color: white;
+      background-color: #3CB371; /* Green color for buttons */
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    .button-container a:hover {
+      background-color: #2E8B57; /* Darker green on hover */
+    }
+
+    footer {
+      background-color: #34495e;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Understanding Malware</h1>
+  </header>
+
+  <div class="container">
+    <div class="content">
+      <h2>What is Malware?</h2>
+      <p>Cyber threats have become increasingly sophisticated, with malware—short for malicious software—emerging as one of the most dangerous tools used by attackers. It is specifically designed to harm, exploit, or gain unauthorized access to computers, networks, and devices. Malware includes a range of harmful programs such as viruses, worms, ransomware, spyware, adware, and Trojan horses, each capable of causing significant damage. These malicious programs often infiltrate systems through phishing emails, deceptive downloads, compromised websites, or infected software, targeting vulnerabilities in both technology and human behavior. The impact of malware can be devastating, leading to stolen data, financial loss, operational disruptions, and breaches of personal or organizational security. As cybercriminals continuously develop more advanced malware to evade detection, individuals and organizations must remain vigilant. Understanding how malware works and the potential harm it can cause is essential for building effective defenses. Employing antivirus software, practicing safe browsing habits, and staying informed about the latest cybersecurity threats are key steps in protecting against this ever-evolving menace.</p>
+    </div>
+
+    <div class="content">
+      <h2>Stay Informed</h2>
+      <p>Learn more about differnt forms of malware, types of attacks, and how it can affect you, and most imporantly how to better protect yourself below:</p>
+    </div>
+
+    <div class="button-container">
+      <a href="file:///C:/Users/ender/OneDrive/Documents/Adrian%20Lozano%20website/CSE-005-Project%20(1).html" target="_blank">Data Protection</a>
+      <a href="file:///C:/Users/ender/OneDrive/Documents/AA%20Salvador%20Bernal%20website/mobile-security.html" target="_blank">Mobile Security</a>
+      <a href="file:///C:/Users/ender/OneDrive/Documents/AA%20ArturoG%20website/MALWAREWP2.html" target="_blank">Malware Protection</a>
+      <a href="file:///C:/Users/ender/OneDrive/Documents/potatonew%20try/Final%20draft/research%20project%20absolute%20final%20final%20draft%20Sai%20Pradyumn-Notepad.html" target="_blank">Intrusions</a>
+      <a href="file:///C:/Users/ender/OneDrive/Documents/AA%20Jaden%20Website/cloud%20security%202.html%20(1)%20-%20Copy/cloud%20security%202.html" target="_blank">Cloud Security</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Malware Awareness. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Project Final Draft - Sai Pradyumn Notepad</title>
+  <style>
+    /* Style for the first color bar */
+    .color-bar {
+      height: 100px; /* Height of the first bar */
+      width: 100%; /* Full width of the page */
+      background-color: #3CB371; /* Medium Sea Green color */
+      display: flex; /* Use flexbox for centering the text */
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      color: white; /* White color for the text */
+      font-size: 40px; /* Text size */
+      font-weight: bold; /* Make the text bold */
+    }
+
+    /* Style for the second, thinner color bar */
+    .thin-color-bar {
+      height: 40px; /* Height of the second, thinner bar */
+      width: 100%; /* Full width of the page */
+      background-color: #3CB392; /* Slightly different green color */
+      display: flex; /* Use flexbox for centering the text */
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      color: white; /* White color for the text */
+      font-size: 20px; /* Slightly smaller text size */
+      font-weight: bold; /* Make the text bold */
+    }
+
+    /* Reset default styles */
+    body, h1, p {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      flex-direction: column; /* Stack content vertically */
+      height: 100vh; /* Full viewport height */
+      width: 100vw; /* Full viewport width */
+      padding: 0; /* Remove padding around body */
+      box-sizing: border-box; /* Include padding in width/height calculations */
+    }
+
+    /* Style for the container which holds the main body content */
+    .container {
+      background-color: #fff; /* White background for the content */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Align content at the top */
+      padding: 20px;
+      width: 97.2%; /* Set the width to 97.2% */
+      margin: 0 auto; /* Center the container */
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center; /* Center the main title */
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      text-align: left; /* Align text to the left */
+    }
+
+    .highlight {
+      color: #e74c3c;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #7f8c8d;
+    }
+
+    /* Center the image */
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- First color bar -->
+  <div class="color-bar">
+    <h1>Intrusions</h1>
+  </div>
+  
+  <!-- Second, thinner color bar -->
+  <div class="thin-color-bar">
+    <h2>Sai Pradyumn Choudarypally</h2>
+  </div>
+
+  <!-- Main container with white background -->
+  <div class="container">
+    <!-- Content without titles -->
+<h2>Introduction</h2>
+    <p>Network intrusions pose a significant and ever-evolving threat to digital security, allowing cybercriminals to gain unauthorized access to sensitive data, which they often exploit to compromise organizations. These breaches can have catastrophic consequences, ranging from substantial financial losses and operational disruptions to lasting damage to an organization’s reputation. The damage inflicted by cyberattacks can also result in legal consequences, regulatory penalties, and a loss of customer trust. Attackers commonly deploy a variety of malicious tactics, including buffer overflow attacks, which exploit vulnerabilities in software to inject harmful code that can take control of or damage systems. Another prevalent tactic is Trojan horse malware, which disguises itself as legitimate software or files to gain unauthorized access to systems without being detected. Additionally, traffic flooding is a form of Distributed Denial of Service (DDoS) attack that overwhelms network resources by bombarding systems with excessive data traffic, causing them to crash or become inaccessible. These techniques are increasingly sophisticated, posing serious challenges to organizations attempting to protect their networks from potential breaches.
+      </p>
+<h3>Types of Intrusions</h3>
+    <!-- Table -->
+    <table border="1" style="width:100%; margin-top: 20px;">
+      <tr>
+        <td>Multi-Routing</td>
+        <td>Multi-routing uses multiple paths to evade detection, allowing suspicious packets to bypass sensors. Networks without multi-routing are immune to this tactic.</td>
+      </tr>
+      <tr>
+        <td>Buffer Overflow Attacks</td>
+        <td>This method overwrites parts of computer memory with commands for an attack. However, boundary-checking logic can block malicious code or lengthy URLs before they reach the buffer.</td>
+      </tr>
+      <tr>
+        <td>Furtive Common Gateway Interface Scripts</td>
+        <td>CGI allows server-client interaction but can let hackers access secured files by manipulating file paths with “..” or “|” characters if input is not verified.</td>
+      </tr>
+      <tr>
+        <td>Protocol-Specific Attacks</td>
+        <td>Devices follow protocols like IP, ICMP, and ARP during network activities, but these can have loopholes. Hackers can exploit these through spoofing, gaining unauthorized access to data or crashing devices.</td>
+      </tr>
+      <tr>
+        <td>Traffic Flooding</td>
+        <td>This common intrusion method involves creating large traffic loads that overwhelm systems, causing congestion and chaos in the network. This allows attackers to carry out undetected attacks.</td>
+      </tr>
+      <tr>
+        <td>Trojan Horse Malware</td>
+        <td>Trojan programs create backdoors for attackers to access networks and data, often spreading through peer-to-peer file exchanges.</td>
+      </tr>
+      <tr>
+        <td>Worms</td>
+        <td>Worms spread through email or messaging, consume network resources, and target sensitive data, sending it to attackers.</td>
+      </tr>
+    </table>
+<br>
+<br>
+     <p>To combat the growing threat of network intrusions, businesses must rely on a combination of advanced tools and proactive security measures, such as Intrusion Detection Systems (IDS) and firewalls. These tools serve as critical lines of defense, helping to monitor network activity in real-time, detect anomalies that may indicate a security breach, and block unauthorized access attempts before they can do harm. Firewalls act as a barrier between internal networks and the outside world, controlling the flow of data and preventing malicious traffic from entering the system. IDS further enhances security by identifying suspicious patterns and behaviors, alerting administrators to potential threats. However, as cybercriminals continuously evolve their tactics, these defenses are no longer foolproof. Attackers often employ sophisticated evasion techniques, such as fragmentation, which breaks malicious payloads into smaller packets to bypass traditional security filters, and encryption, which conceals harmful traffic, making it harder for firewalls and IDS to detect. These methods highlight the growing complexity of cyberattacks and the need for continuous improvements in cybersecurity tools and strategies.
+      </p>
+    <!-- Centered image -->
+    <div class="image-container">
+      <img src="Intrusions 1.jpg" width="500" height="375" alt="Intrusions 1 picture" />
+    </div>
+</body>
+<body>
+<h3>Types of Intrusion Detection Systems</h3>
+<table border="1" style="width:100%; margin-top: 20px;">
+  <tr>
+    <td>Newtork Intrusion Detection System</td>
+    <td>Network intrusion detection systems monitor traffic on the network, compare it to known attack patterns, and alert the administrator if anything suspicious is detected.</td>
+  </tr>
+  <tr>
+    <td>Host Intrusion Detection System</td>
+    <td>Host intrusion detection systems run on individual devices, taking snapshots of system files and comparing them over time. If files are altered or deleted, the system alerts the administrator.</td>
+  </tr>
+  <tr>
+    <td>Signature based method</td>
+    <td>Signature-based IDS detects known attacks using predefined patterns but struggles with new, unknown threats.</td>
+  </tr>
+  <tr>
+    <td>Anomly based method</td>
+    <td>Anomaly-based IDS uses machine learning to detect unknown malware by comparing new behavior to a model of normal activity. While it can spot new attacks, it may generate false positives, labeling harmless actions as malicious.</td>
+  </tr>
+</table>
+
+
+    <p>
+      <ul>
+        <li>Human error contributes to <span class="highlight">88 percent</span> of breaches in hacker protocol, underscoring the need for raising awareness and training to mitigate these errors.</li>
+        <li>Statistics show that <span class="highlight">84 percent</span> of intrusions into cloud-based infrastructures are committed by eCrimes actors, driven by rapid growth and appeal of cloud technologies.</li>
+        <li>Enterprises must prioritize <span class="highlight">cloud security</span>, enhance advanced threat detection, and reinforce data protection strategies to safeguard the digital ecosystem.</li>
+      </ul>
+    </p>
+<h2>Conclusion</h2>
+    <p>
+      Understanding the sophisticated tactics used in network intrusions—such as high traffic flooding, buffer overflow attacks, and evasion methods like fragmentation and encryption—is essential for strengthening cybersecurity defenses. These methods, designed to exploit system vulnerabilities and evade detection, highlight the growing sophistication of cyber threats. As organizations become more reliant on digital platforms to manage sensitive data and critical operations, the risks posed by these attacks continue to escalate. Implementing robust countermeasures, such as Intrusion Detection Systems (IDS) and firewalls, is vital to detect, prevent, and respond to threats effectively. By staying vigilant and investing in advanced security strategies, businesses can safeguard their systems, protect sensitive data, and mitigate the financial and reputational risks of cyberattacks.
+    </p>
+  </div>
+</body>
+ <footer>
+    <a href="https://www.sciencedirect.com/topics/computer-science/network-intrusion" target="_blank">ScienceDirect: Network Intrusion</a>
+    <a href="https://www.uscybersecurity.net/network-intrusion/#:~:text=A%20network%20intrusion%20refers%20to,usual%20subjects%20of%20these%20attacks" target="_blank">US Cybersecurity: Network Intrusion</a>
+    <a href="https://www.paloaltonetworks.com/cyberpedia/what-is-an-intrusion-detection-system-ids" target="_blank">PaloAlto Networks: IDS</a>
+    <a href="https://www.nu.edu/blog/cybersecurity-statistics/" target="_blank">National University: Cybersecurity Statistics</a>
+  </footer>
+</html>
+
